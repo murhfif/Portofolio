@@ -15,7 +15,11 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 0 8%;
-  background-color: black;
+  background-color: #0b1a30;
+  border: 5px solid gray;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 50px;
 }
 
 .logo {
@@ -43,17 +47,17 @@ body {
 
 .hamburger {
   display: none;
-  color: #aaa;
+  color: white;
   font-size: 28px;
   cursor: pointer;
 }
 .hero {
-  min-height: 770px;
+  height: 900px;
   padding: 70px 10%;
   display: flex;
   align-items: center;
   gap: 80px;
-  margin-top: 150px;
+  margin-top: 10px;
 }
 
 .hero-image {
@@ -103,7 +107,7 @@ span {
 .hero-btn {
   display: inline-block;
   padding: 13px 25px;
-  background: black;
+  background: #0b1a30;
   color: white;
   text-decoration: none;
   border-radius: 6px;
@@ -117,7 +121,7 @@ span {
   display: flex;
   align-items: center;
   gap: 80px;
-  background: #242424;
+  background: #08172b;
   height: 900px;
 }
 .about-image {
@@ -322,6 +326,7 @@ span {
     padding: 30px 64px;
     background: #08172b;
     border-top: 1px solid #162941;
+    border: 1px solid white;
 }
 
 .footer-content {
@@ -333,9 +338,10 @@ span {
 
 .footer-logo {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     text-decoration: none;
+    margin-left: 10px;
 }
 
 .footer p {
@@ -363,7 +369,6 @@ span {
     height: 70px;
     padding: 0 25px;
     align-items: flex-start;
-    padding-top: 10px;
   }
 
   .logo {
@@ -378,13 +383,15 @@ span {
   .nav-menu {
     display: none;
     position: absolute;
-    top: 70px;
+    top: 50px;
     left: 0;
-    width: 100%;
+    width: 20%;
+    border-radius: 5px;
     padding: 10px 25px;
-    background: #1d1d1d;
+    background: #08172b;
     flex-direction: column;
     gap: 15px;
+    margin-left: 450px;
   }
 
   .nav-menu.active {
@@ -393,6 +400,7 @@ span {
 
   .nav-menu a {
     font-size: 17px;
+    text-align: center;
   }
   .hero {
     min-height: auto;
@@ -404,7 +412,7 @@ span {
 
   .hero-image {
     width: 100%;
-    order: 1;
+
   }
 
   .hero-image img {
